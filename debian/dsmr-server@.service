@@ -1,0 +1,11 @@
+[Unit]
+Description=DSRM smart meter data server for serial port %i
+Wants=read-p1.service
+ConditionPathExists=/dev/%i
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=exec
+ExecStart=dsmr_server --terminal %i
