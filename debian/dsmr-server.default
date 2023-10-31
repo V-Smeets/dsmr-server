@@ -1,0 +1,15 @@
+#
+
+# The 'logDirectories' variable defines the directory where the log files
+# are located. Form this directory the '*.log' file with the most recent
+# timestamp is used to provide the data.
+declare -A logDirectories
+
+# The 'port' variable defines the TCP port on which to listen for
+# incomming connections.
+declare -A -i ports
+
+# The variables are assosiative arrays. The tty port is used as an
+# index in those arrays.
+logDirectories['ttyUSB0']="/var/log/read-p1"
+ports['ttyUSB0']=8124
