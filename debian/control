@@ -1,0 +1,14 @@
+Source: dsmr-server
+Maintainer: Vincent Smeets <Vincent.VSmeets@GMail.com>
+Section: net
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: dsmr-server
+Architecture: all
+Depends: ${misc:Depends}
+Description: A server for DSRM smart meter data.
+ A server that will read the P1 records from a DSRM smart meter and
+ serves that data on a network interface.  The data is read from a serial
+ interface, saved in files and provided on a TCP server socket.
