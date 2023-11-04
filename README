@@ -1,0 +1,5 @@
+A server for DSRM smart meter data.
+
+A server that will read the P1 records from a DSRM smart meter and
+serves that data on a network interface.  The data is read from a serial
+interface, saved in files and provided on a TCP server socket.
