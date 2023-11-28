@@ -1,3 +1,11 @@
+dsmr-server (0.1.1~1.gbp9b507b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9b507b4490434847f4d384c56e072451bd6f7763 **
+
+  * UNRELEASED
+
+ -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 28 Nov 2023 20:47:42 +0100
+
 dsmr-server (0.1.0) unstable; urgency=medium
 
   * Initial version as a script.
