@@ -1,5 +1,7 @@
-dsmr-server (0.0.0) UNRELEASED; urgency=low
+dsmr-server (0.0.0~1.gbp04ecda) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @04ecda48a0856efe53e018a0c21879fe9481318f **
 
   * Initial release.
 
- -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 31 Oct 2023 16:15:09 +0100
+ -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 28 Nov 2023 19:20:16 +0100
