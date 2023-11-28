@@ -1,7 +1,7 @@
 # Autoconf requirements
 
 # AC_INIT(package, version, bug-report-address)
-AC_INIT([dsmr-server], [0.0.0], [dsmr-server@vsmeets.nl])
+AC_INIT([dsmr-server], [0.1.0], [dsmr-server@vsmeets.nl])
 AM_INIT_AUTOMAKE
 
 # information on the package
