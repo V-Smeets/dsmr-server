@@ -1,3 +1,7 @@
+# MIT License
+#
+# Copyright (c) 2023 Vincent Smeets
+
 # Autoconf requirements
 
 # AC_INIT(package, version, bug-report-address)

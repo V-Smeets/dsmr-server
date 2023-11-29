@@ -1,5 +1,9 @@
 #!/bin/bash -ex
 #
+# MIT License
+#
+# Copyright (c) 2023 Vincent Smeets
+#
 EXIT_SUCCESS=0
 EXIT_FAILURE=1
 EXIT_INVALIDARGUMENT=2
