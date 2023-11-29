@@ -6,8 +6,9 @@ Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.2
 
 Package: dsmr-server
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Server for DSRM smart meter data
  A server that will read the P1 records from a DSRM smart meter and
  serves that data on a network interface.  The data is read from a serial

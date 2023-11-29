@@ -6,11 +6,14 @@
 
 # AC_INIT(package, version, bug-report-address)
 AC_INIT([dsmr-server], [0.1.0], [dsmr-server@vsmeets.nl])
+AC_CONFIG_SRCDIR([src/dsmr_server.c])
+AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE
 
 # information on the package
 
 # checks for programs
+AC_PROG_CC
 
 # checks for libraries
 
