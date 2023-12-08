@@ -9,3 +9,4 @@ dsmr_server_SOURCES	= dsmr_server.c
 dsmr_server_SOURCES	+= channel.h channel.c
 dsmr_server_SOURCES	+= local_error.h
 dsmr_server_SOURCES	+= options.h options.c
+dsmr_server_SOURCES	+= reader.h reader.c
