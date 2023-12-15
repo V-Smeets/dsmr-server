@@ -28,6 +28,7 @@ AM_INIT_AUTOMAKE
 
 # AC_CONFIG_FILES([file…])
 AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([src/Makefile])
 
 # AC_OUTPUT
 AC_OUTPUT
