@@ -5,6 +5,7 @@
  */
 
 /* includes */
+#include "options.h"
 #include <stdlib.h>
 
 /* defines */
@@ -20,5 +21,7 @@
 int
 main (int argc, char *argv[])
 {
+  options_t *options = options_parse (argc, argv);
+
   return EXIT_SUCCESS;
 }
