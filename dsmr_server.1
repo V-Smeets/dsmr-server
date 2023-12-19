@@ -1,0 +1,74 @@
+.\" MIT License
+.\"
+.\" Copyright (c) 2023 Vincent Smeets
+
+.TH DSMR_SERVER 1 2023-12-01 dsmr-server
+
+.SH NAME
+dsmr_server \- a server for DSRM smart meter data
+
+.\" .SH LIBRARY		\" [Normally only in Sections 2, 3]
+
+.SH SYNOPSIS
+.B dsmr_server
+.RI [ options ]
+
+.\" .SH CONFIGURATION	\" [Normally only in Section 4]
+
+.SH DESCRIPTION
+.B dsmr_server
+is a server that will read the P1 records from a DSRM smart meter and serves that data on a network interface.
+The data is read from a serial interface, saved in files and provided on a TCP server socket.
+
+.SH OPTIONS
+Mandatory arguments to long options are mandatory for short options too.
+.TP
+\fB\-s\fR, \fB\-\-serial\fR=\fI\,DEVICE\/\fR
+The serial device from which the server will read the P1 records.
+.TP
+\fB\-b\fR, \fB\-\-baudrate\fR=\fI\,SPEED\/\fR
+The speed that will be used to read from the serial device.
+.TP
+\fB\-p\fR, \fB\-\-port\fR=\fI\,PORT\/\fR
+The network port on which the server will listen for incoming connections.
+
+.SH EXIT STATUS
+.TP
+0
+Successful termination.
+.TP
+1
+Terminated with an error.
+
+.\" .SH RETURN VALUE	\" [Normally only in Sections 2, 3]
+
+.\" .SH ERRORS		\" [Typically only in Sections 2, 3]
+
+.\" .SH ENVIRONMENT
+
+.SH FILES
+.TP
+.I /var/log/p1\-telegrams.log
+The file in which the P1 records are saved.
+
+.\" .SH VERSIONS	\" [Normally only in Sections 2, 3]
+
+.\" .SH ATTRIBUTES	\" [Normally only in Sections 2, 3]
+
+.\" .SH STANDARDS
+
+.\" .SH NOTES
+
+.\" .SH CAVEATS
+
+.\" .SH BUGS
+
+.\" .SH EXAMPLES
+
+.\" .SH AUTHORS		\" [Discouraged]
+
+.\" .SH REPORTING BUGS	\" [Not used in man-pages]
+
+.\" .SH COPYRIGHT	\" [Not used in man-pages]
+
+.\" .SH SEE ALSO
