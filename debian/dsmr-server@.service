@@ -1,5 +1,6 @@
 [Unit]
 Description=DSRM smart meter data server for serial port %i
+Documentation=man:dsmr_server
 Wants=read-p1.service
 ConditionPathExists=/dev/%i
 
