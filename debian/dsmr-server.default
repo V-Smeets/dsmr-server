@@ -1,4 +1,6 @@
+# MIT License
 #
+# Copyright (c) 2023 Vincent Smeets
 
 # The 'logDirectories' variable defines the directory where the log files
 # are located. Form this directory the '*.log' file with the most recent

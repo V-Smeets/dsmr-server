@@ -1,10 +1,15 @@
-dsmr-server (0.1.1~1.gbp9b507b) UNRELEASED; urgency=medium
+dsmr-server (0.1.1~2.gbpc03322) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9b507b4490434847f4d384c56e072451bd6f7763 **
+  ** SNAPSHOT build @c033225edd7f3d4ac1724a94548369f312e32020 **
 
   * UNRELEASED
+  * Added: README
+  * Fixed: description-synopsis-starts-with-article
+  * Fixed: no-manual-page
+  * Fixed: systemd-service-file-missing-documentation-key
+  * .gitignore
 
- -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 19 Dec 2023 16:08:58 +0100
+ -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 19 Dec 2023 16:29:16 +0100
 
 dsmr-server (0.1.0) unstable; urgency=medium
 
