@@ -1,6 +1,6 @@
-dsmr-server (0.1.1~2.gbpc03322) UNRELEASED; urgency=medium
+dsmr-server (0.1.1~3.gbp05ef5f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c033225edd7f3d4ac1724a94548369f312e32020 **
+  ** SNAPSHOT build @05ef5f495eb663c0c627b804cfe0a36cb97419cc **
 
   * UNRELEASED
   * Added: README
@@ -8,8 +8,9 @@ dsmr-server (0.1.1~2.gbpc03322) UNRELEASED; urgency=medium
   * Fixed: no-manual-page
   * Fixed: systemd-service-file-missing-documentation-key
   * .gitignore
+  * Set the license to MIT
 
- -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 19 Dec 2023 16:29:16 +0100
+ -- Vincent Smeets <Vincent.VSmeets@GMail.com>  Tue, 19 Dec 2023 16:39:01 +0100
 
 dsmr-server (0.1.0) unstable; urgency=medium
 
