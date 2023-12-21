@@ -23,13 +23,16 @@ The data is read from a serial interface, saved in files and provided on a TCP s
 .SH OPTIONS
 Mandatory arguments to long options are mandatory for short options too.
 .TP
-\fB\-d\fR, \fB\-\-device\fR=\fI\,DEVICE\/\fR
+\fB\-h\fR, \fB\-\-help\fR
+Show help and exit the program.
+.TP
+\fB\-d\fR, \fB\-\-device\fR \fI\,DEVICE\/\fR
 The serial device from which the server will read the P1 records.
 .TP
-\fB\-b\fR, \fB\-\-baudrate\fR=\fI\,SPEED\/\fR
+\fB\-s\fR, \fB\-\-speed\fR \fI\,SPEED\/\fR
 The speed that will be used to read from the serial device.
 .TP
-\fB\-p\fR, \fB\-\-port\fR=\fI\,PORT\/\fR
+\fB\-p\fR, \fB\-\-port\fR \fI\,PORT\/\fR
 The network port on which the server will listen for incoming connections.
 
 .SH EXIT STATUS
