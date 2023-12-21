@@ -28,3 +28,4 @@ p1_record_test_CPPFLAGS	= $(BOOST_CPPFLAGS)
 p1_record_test_LDADD	= p1_record.$(OBJEXT)
 
 dsmr_server_SOURCES	+= channel.h channel.cc
+dsmr_server_SOURCES	+= reader.h reader.cc
