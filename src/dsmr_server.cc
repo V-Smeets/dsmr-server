@@ -4,6 +4,7 @@
  * Copyright (c) 2023 Vincent Smeets
  */
 
+#include "channel.h"
 #include "options.h"
 
 #include <boost/program_options.hpp>
@@ -27,6 +28,8 @@ int main(int argc, char *argv[]) {
     cerr << options << endl;
     return EXIT_FAILURE;
   }
+
+  [[maybe_unused]] dsmr_server::Channel channel = dsmr_server::Channel();
 
   return EXIT_SUCCESS;
 }

@@ -26,3 +26,5 @@ TESTS			+= p1_record_test
 p1_record_test_SOURCES	= p1_record_test.cc
 p1_record_test_CPPFLAGS	= $(BOOST_CPPFLAGS)
 p1_record_test_LDADD	= p1_record.$(OBJEXT)
+
+dsmr_server_SOURCES	+= channel.h channel.cc
