@@ -30,3 +30,4 @@ p1_record_test_LDADD	= p1_record.$(OBJEXT)
 dsmr_server_SOURCES	+= channel.h channel.cc
 dsmr_server_SOURCES	+= reader.h reader.cc
 dsmr_server_SOURCES	+= listener.h listener.cc
+dsmr_server_SOURCES	+= server.h server.cc
