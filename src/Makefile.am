@@ -20,3 +20,9 @@ options_test_SOURCES	= options_test.cc
 options_test_CPPFLAGS	= $(BOOST_CPPFLAGS)
 options_test_LDFLAGS	= $(BOOST_PROGRAM_OPTIONS_LIBS)
 options_test_LDADD	= options.$(OBJEXT)
+
+dsmr_server_SOURCES	+= p1_record.h p1_record.cc
+TESTS			+= p1_record_test
+p1_record_test_SOURCES	= p1_record_test.cc
+p1_record_test_CPPFLAGS	= $(BOOST_CPPFLAGS)
+p1_record_test_LDADD	= p1_record.$(OBJEXT)
