@@ -6,6 +6,7 @@
 
 # AC_INIT(package, version, bug-report-address)
 AC_INIT([dsmr-server], [0.1.0], [dsmr-server@vsmeets.nl])
+AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE
 
 # information on the package
