@@ -13,10 +13,11 @@ AC_CONFIG_HEADERS([config.h])
 LT_INIT
 AM_INIT_AUTOMAKE
 
-# information on the package
-
 # checks for programs
 AC_PROG_CXX
+
+# information on the package
+BOOST_REQUIRE([1.74])
 
 # checks for libraries
 
