@@ -14,6 +14,7 @@ LT_INIT
 AM_INIT_AUTOMAKE
 
 # information on the package
+BOOST_REQUIRE([1.74])
 
 # checks for programs
 AC_PROG_CXX
