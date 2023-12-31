@@ -3,7 +3,8 @@ Maintainer: Vincent Smeets <Vincent.VSmeets@GMail.com>
 Section: net
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-	libboost-program-options-dev
+	libboost-program-options-dev,
+	libgtest-dev
 Standards-Version: 4.6.2
 
 Package: dsmr-server
