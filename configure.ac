@@ -22,6 +22,7 @@ BOOST_REQUIRE([1.74])
 # checks for libraries
 
 # checks for header files
+BOOST_PROGRAM_OPTIONS
 
 # checks for types
 
