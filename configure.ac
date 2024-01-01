@@ -15,6 +15,7 @@ AM_INIT_AUTOMAKE
 
 # checks for programs
 AC_PROG_CXX
+AC_LANG([C++])
 
 # information on the package
 BOOST_REQUIRE([1.74])
@@ -23,6 +24,7 @@ BOOST_REQUIRE([1.74])
 
 # checks for header files
 BOOST_PROGRAM_OPTIONS
+AC_CHECK_HEADERS([gtest/gtest.h], , [AC_MSG_ERROR([The required header is not available])])
 
 # checks for types
 
