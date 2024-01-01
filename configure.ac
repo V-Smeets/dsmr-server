@@ -8,6 +8,7 @@
 AC_INIT([dsmr-server], [0.1.0], [dsmr-server@vsmeets.nl])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_AUX_DIR([build-aux])
+LT_INIT
 AM_INIT_AUTOMAKE
 
 # information on the package
