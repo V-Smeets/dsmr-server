@@ -22,6 +22,7 @@ AC_PROG_CXX
 # checks for libraries
 
 # checks for header files
+BOOST_PROGRAM_OPTIONS
 
 # checks for types
 
