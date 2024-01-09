@@ -26,6 +26,7 @@ AC_CHECK_HEADERS([gtest/gtest.h], , [AC_MSG_ERROR([The required header is not av
 
 # checks for libraries
 AC_CHECK_CXXLIB([gtest_main], [], [main()])
+AC_CHECK_CXXLIB([gtest], [#include <gtest/gtest.h>], [testing::InitGoogleTest()])
 
 # checks for types
 
