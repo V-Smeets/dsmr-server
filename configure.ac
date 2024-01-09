@@ -20,11 +20,12 @@ AC_LANG([C++])
 # information on the package
 BOOST_REQUIRE([1.74])
 
-# checks for libraries
-
 # checks for header files
 BOOST_PROGRAM_OPTIONS
 AC_CHECK_HEADERS([gtest/gtest.h], , [AC_MSG_ERROR([The required header is not available])])
+
+# checks for libraries
+AC_CHECK_CXXLIB([gtest_main], [], [main()])
 
 # checks for types
 
